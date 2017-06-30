@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+  <soapenv:Header>
+    <X-OPNET-Transaction-Trace:X-OPNET-Transaction-Trace xmlns:X-OPNET-Transaction-Trace="http://opnet.com">pid=154758,requestid=469ab88781773c731cbcd558b305522f51744fec2cc3765c</X-OPNET-Transaction-Trace:X-OPNET-Transaction-Trace>
+  </soapenv:Header>
+  <soapenv:Body>
+    <ns2:buscaEventosResponse xmlns:ns2="http://resource.webservice.correios.com.br/">
+      <return>
+        <versao>2.0</versao>
+        <qtd>1</qtd>
+        <objeto>
+          <numero>DV529144490BR</numero>
+          <sigla>DV</sigla>
+          <nome>SEDEX COM AR DIGITAL</nome>
+          <categoria>SEDEX</categoria>
+          <evento>
+            <tipo>BDE</tipo>
+            <status>01</status>
+            <data>10/05/2017</data>
+            <hora>18:14</hora>
+            <descricao>Objeto entregue ao destinatário</descricao>
+            <recebedor>                                                                        </recebedor>
+            <documento>                         </documento>
+            <comentario>                         </comentario>
+            <local>CDD ITAPEVI</local>
+            <codigo>06650970</codigo>
+            <cidade>Itapevi</cidade>
+            <uf>SP</uf>
+          </evento>
+        </objeto>
+      </return>
+    </ns2:buscaEventosResponse>
+  </soapenv:Body>
+</soapenv:Envelope>
